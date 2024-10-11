@@ -1,12 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\TFG\Head\Head\Head.PcbDoc
-Date     : 09/10/2024
-Time     : 23:42:20
+Date     : 11/10/2024
+Time     : 10:44:08
 
-Processing Rule : Clearance Constraint (Gap=0.3mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.24mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InComponentClass('HeadSensors')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
