@@ -81,7 +81,7 @@ Generating : Mechanical 6
 Used DCodes :
     D10
     D13
-    D82
+    D84
     D96
 *************************************************************
 
@@ -333,9 +333,9 @@ Generating : Bottom Layer
 
 Used DCodes :
     D10
-    D82
     D83
     D84
+    D85
     D88
     D89
     D90
