@@ -2,17 +2,6 @@
 FileName = Side.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 20
-      File : Side.GM20
-
-    Adding Layer      : Mechanical 20
-
-
-Used DCodes :
-    D30
-*************************************************************
-
-*************************************************************
 Generating : Top Pad Master
       File : Side.GPT
 
@@ -30,16 +19,54 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 15
-      File : Side.GM15
+Generating : Top Overlay
+      File : Side.GTO
 
-    Adding Layer      : Mechanical 15
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D29
-    D30
-    D31
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Side.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Side.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D25
 *************************************************************
 
 *************************************************************
@@ -62,39 +89,14 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 12
-      File : Side.GM12
+Generating : Keep-Out Layer
+      File : Side.GKO
 
-    Adding Layer      : Mechanical 12
-
-
-Used DCodes :
-    D28
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 11
-      File : Side.GM11
-
-    Adding Layer      : Mechanical 11
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D27
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Side.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D25
-    D26
+    D13
 *************************************************************
 
 *************************************************************
@@ -108,59 +110,29 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : Side.GTS
+Generating : Mechanical 6
+      File : Side.GM6
 
-    Adding Layer      : Top Solder
+    Adding Layer      : Mechanical 6
 
-    Adding Layer      : Top Layer
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Side.GBL
+
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : Side.GM13
-
-    Adding Layer      : Mechanical 13
-
-
-Used DCodes :
-    D29
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Side.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : Side.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D13
+    D26
+    D27
+    D28
 *************************************************************
 
 *************************************************************
@@ -171,6 +143,41 @@ Generating : Mechanical 16
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 11
+      File : Side.GM11
+
+    Adding Layer      : Mechanical 11
+
+
+Used DCodes :
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : Side.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 20
+      File : Side.GM20
+
+    Adding Layer      : Mechanical 20
+
+
+Used DCodes :
+    D32
 *************************************************************
 
 *************************************************************
@@ -189,34 +196,31 @@ Used DCodes :
     D16
     D17
     D18
-    D25
     D26
+    D27
+    D28
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 6
-      File : Side.GM6
+Generating : Mechanical 12
+      File : Side.GM12
 
-    Adding Layer      : Mechanical 6
+    Adding Layer      : Mechanical 12
 
 
 Used DCodes :
-    D10
+    D30
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : Side.GBS
+Generating : Mechanical 13
+      File : Side.GM13
 
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 13
 
 
 Used DCodes :
-    D24
+    D31
 *************************************************************
 
 *************************************************************
@@ -229,7 +233,7 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D32
+    D34
 *************************************************************
 
 *************************************************************
@@ -242,7 +246,7 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D32
+    D34
 *************************************************************
 
 *************************************************************
@@ -251,6 +255,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D33
+    D35
 *************************************************************
 
